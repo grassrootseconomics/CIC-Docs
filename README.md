@@ -1,15 +1,17 @@
 ## Community Inclusion Currencies (CICs)
 
 
-## Funding Sustainable Development Goals
-
-**Last updated: 30-Sept-2019**
+### Funding Sustainable Development Goals
 
 _Keywords: User Generated Tokens, Blockchain Community Currencies, Bonding Curves, Proof of Impact, Poverty Alleviation, Grassroots Economics, Sustainable Development Goals, Cash Transfer, Cash and Voucher Assistance_
 
 **Abstract**
 
 This paper proposes the development and expansion of networks of connected currencies (Community Inclusion Currencies (CICs)) comprising an open and decentralized monetary system as well as the protocols and architecture to support social and monetary development worldwide, and thereby contribute to achieving the United Nations’ Sustainable Development Goals (SDGs). We examine current programs in Kenya that utilize blockchain technologies in order to enable underserved communities to create currencies freely, securely, and with the inherent ability to connect their currencies to each other and propose a path toward technology diffusion. 
+
+
+[TOC]
+
 
 
 ## 
@@ -19,10 +21,10 @@ This paper proposes the development and expansion of networks of connected curre
 
 
 
-## 1. Introduction
+## 1. Introduction {#1-introduction}
 
 
-### 1.1 Background
+### 1.1 Background {#1-1-background}
 
 The availability of national currency in a marginalized communities often bears little relation to the demand or capacity of local production, but derives from external factors such as the national debt, interest rates, trade deficits, regional crisis and IMF ascribed policies. The resulting scarcity of a medium of exchange invariably cripples communities’ internal trade and causes local markets to become chronically unstable. Poverty is often wrongly equated with simple lack of money rather than lack of opportunity. It is a structural issue caused by many factors, one of which is lack of liquidity. This factor alone can cause markets to stagnate, robbing people opportunities for growth that could exist within the community itself. 
 
@@ -41,7 +43,7 @@ According to Hirota (2013), many types of community currencies have been issued 
 In the late 1990s through the early 2000s, hundreds of CCs started to appear worldwide according to Lietaer (2004). However, many CCs have failed to scale or have simply not flourished. Yamazaki (2013) points out that about 60% of community currencies in Japan were terminated or suspended because of circulation failure due to lack of general market acceptance. We propose the use of blockchain technology, bonding curves to underlying contract and connecting protocols to create markets of CCs and mitigate the risk.
 
 
-### 1.2 Community Currencies (CCs)
+### 1.2 Community Currencies (CCs) {#1-2-community-currencies-ccs}
 
 CCs seek to enable communities to develop a source of local credit based on productive capacity and local values, creating a monetary system better suited to eradicate poverty and the multiple indicators of deprivation targeted by the UN’s SDGs (See section 3.2.1  Proof of Impact for SDGs).
 
@@ -52,7 +54,7 @@ CICs proposed here build on the lessons learnt from the [Sarafu-Network](https:/
 Grassroots Economics Foundation in Kenya, is among a growing worldwide movement of community currency proponents who see a connected and decentralized economy as one of the most fundamental building blocks for designing a better future for humanity. In order to seed communities **_of_** currencies worldwide and promote equitability and stability, Grassroots Economics seeks to enable and support CICs for marginalized communities. 
 
 
-### 1.3 Grassroots Economies
+### 1.3 Grassroots Economies {#1-3-grassroots-economies}
 
 By enabling communities as the basic units of the economy to create their own currency, and groups of these currencies together to form super clusters for physical regions or causes, we are encouraging a decentralized bottom-up economy to emerge. The unit of exchange in this multitudinous currency environment is based on the productive capacity each currency represents, whose exchange value is determined by a market of such connected currencies. This community-level of granularity in the backing of each currency unit is currently impossible via non-blockchain based national currencies, as they do not effectively audit or react to the difference in supply of the medium of exchange vs available productive capacity. In other words, the increased issuance of national currency, largely through private banking insurance rates, does not adequately reflect actual productive capacity, as seen by the large growth in the credit supply vs gross national production (Ryan-Collins et al. 2012).
 
@@ -61,12 +63,12 @@ Before they are connected together, the liquidity of historic community currenci
 National currencies, which are currently described by Lietaer, et al. (2012) as dominant monocultures, may begin to adopt their own CIC systems for fractional reserve as a means of stabilizing such user-generated credit creation. Likewise communities will be able to create endogenous sources of credit to trade among each other and with fiat currencies based on their own productive capacity.
 
 
-## 2. Tokenomics
+## 2. Tokenomics {#2-tokenomics}
 
 Drawing on economics and game theory, the field of tokenomics is loosely defined as the emerging economics of cryptography-based tokens and networks. This paper discusses the current and future tokenomic configurations which allows any entity to issue CIC tokens that benefit from continuous on-chain liquidity and price-discovery, regardless of their scale and volume.  
 
 
-### 2.1 Communities of Currencies
+### 2.1 Communities of Currencies {#2-1-communities-of-currencies}
 
 **_How do we enable community currencies to exchange with each other in an emergent ecosystem of individual, group, business, charity, and governmental tokens while preserving fair and balanced pricing of the currencies at the lowest possible costs?_**
 
@@ -77,7 +79,7 @@ These reserve tokens that link community currencies together need not be tradabl
 A network of exchange protocol (bonding curve) connected CICs, when used as a medium of exchange, can be seen as a **Network _of_ Currencies**. These currency networks have the potential, as an emergent phenomenon, to create connected and decentralized economic systems. It is important to realize that CICs as well as networks of CICs are not necessarily decentralized - CCs are historically often single issuer (albeit potentially a cooperative or trusted single issuer) hence highly centralized, and lack scalability according to North (2005) for this reason. It is a network of networks _of_ these connected community currencies that begins to truly differentiate itself from isolated community currency systems or centralized exchanges or centralized network tokens, and provide adequate market acceptance, based in shared protocols for relative value.
 
 
-### 2.2 Currency Creation
+### 2.2 Currency Creation {#2-2-currency-creation}
 
 A community group may create a [CIC Liquid Token Contract](https://github.com/GrassrootsEconomics/CIC-Liquid-Token) on a blockchain (via a mobile interface) which can be created with an initial supply and made available and tradable for community members only or open to the broader world for transactions. If the created token has no initial reserve it can only be traded as an internal community currency, with no defined rate of exchange for other currencies. The token creator may airdrop (offer free promotional) tokens to community members or spend them into existence in various ways, as has been demonstrated with CCs in [Kenya](http://grassecon.org). A CIC creator may then connect with another CIC by establishing a _reserve _that is connected to both CICs. Note that a reserve token can be another Community Inclusion Currency that can be created by one or more parties and itself could be a usable medium of exchange and connected to a stable token (and hence national currencies). A large network of CICs connecting to one another acts as a decentralized buffer system, such that if any one currency is in decline, another can pick up its reserve, ensuring that communities’ collective production remains the source of all currency as these networks spread.	
 
@@ -86,14 +88,14 @@ In this way a currency creator creating a CIC as a promise for their future prod
 CIC reserve tokens can in turn contain a token which is linked to National Currencies and provide market liquidity by acting as reserves for many CICs. These group or village CICs can in turn act as reserves for other villages or projects. Group token creators can choose to create reserves between themselves only (no connection to national currency) and isolated tokens can remain completely isolated and non exchangeable, or eventually choose to connect to other tokens or networks of tokens. Token holders can have and trade with any token, but only those tokens linked through their reserves, directly or indirectly, can be exchanged for each other. In practice users auto-convert incoming tokens to a single ‘community’ token of their choosing.
 
 
-### 2.3 Blockchain-Enabled Community Currencies
+### 2.3 Blockchain-Enabled Community Currencies {#2-3-blockchain-enabled-community-currencies}
 
 In order to implement Community Inclusion Currencies (CICs) in a framework that will allow them to interact with each other, the solutions currently available lie in decentralized ledger systems or blockchains and embedded smart contracts. Blockchains, due to their distributed nature and integrated cryptography, enable CC transactions records to be immutable and secure. They also offer the ability to encode scripts or programs into tokens called smart contracts. The CIC exchange protocol is one such open-source script embedded into the smart contract of Community Inclusion Currencies (CICs) which enable them to interact with each other. 
 
 While a CIC could exist on any smart-contract-enabled blockchain, many blockchains charge high fees for executing transactions to the network. In order to trade effectively in marginalized communities, transaction fees must be minimized, which is why we are using the POA.Network blockchain, an Ethereum-based platform that offers an affordable open-source framework for smart contracts. POA leverages an independent group of block validators who maintain the transaction records and who are all licensed public notaries around the United States, which increases security while enabling a method of governance on the blockchain (Barinov et al., 2017). POA Network is a scalable, secure and cost effective solution for enabling CICs for micro, small and medium businesses. For more information visit [https://poa.network/](https://poa.network/). In order to connect Kenyan CICs to DIA we are using a version of POA that has a native DAI token: xDAI ([https://poa.network/xdai](https://poa.network/xdai)).
 
 
-### 2.4 Price Stability and Continuous Liquidity
+### 2.4 Price Stability and Continuous Liquidity {#2-4-price-stability-and-continuous-liquidity}
 
 As blockchain related markets have demonstrated in recent years, the adoption of a currency by a community _can_ create new wealth for that community, which further increases as the currency adoption grows. This model dictates that the community currency’s price will fluctuate according to the adoption trend which can be contradictory to the need for price stability in a currency. 
 
@@ -116,29 +118,29 @@ In summary, the network of Community Inclusion Currencies gives people the abili
 Note that beyond a system of connected circulating vouchers, in order to encourage the circulation of the CICs, there are several key implementation and system tools for voting, taxation, basic income and demurrage (negative interest). Variable fees on transactions can be introduced that depend both on how long the tokens have been stagnate and the volume being traded. These holding fees can be structured in various ways using smart contracts, such as a variable percentage of token balances depending on the time since the last trade, scaled by the amount of the last trade compared to account balance. These transaction fees can be collected into a community fund account and a voting system established so that users holding the tokens can decide what happens with the fees. Options could include system maintenance, community programs, social security, or taxation. 
 
 
-## 3. Seeding CIC Reserves
+## 3. Seeding CIC Reserves {#3-seeding-cic-reserves}
 
 
-### 3.1 Connecting Community Currencies Together
+### 3.1 Connecting Community Currencies Together {#3-1-connecting-community-currencies-together}
 
 While we can envision the organic growth of economies built of connected user-generated CICs, the unfettered market that forms based on this growth can generate an uncompetitive system in which early token developers become _de facto_ reserve providers. In order to establish systems where markets are inclusive and work more efficiently for currently economically marginalized communities, we propose the adoption of reserve-seeding as a humanitarian aid practice. Such a general reserve, we will call the CIC Reserve Token, can include a National Currency stable token (such as DAI) and used to seed CICs that use it to automatically link with each other. By staking these CIC Reserve Tokens to CICs, communities easily and freely have reserves and collateral systems for their token creation and bypass the initial need to purchase or organically develop market-connecting reserve tokens. The connection between these actors will be described below under the **CIC Network Ecosystem **section.
 
 Sarafu in Kenya as an example is only an _initial_ reserve as communities with CIC creators are free to disconnect, add or build their own reserves, or have as many or few reserves as they wish. We envision CIC Reserve Tokens helping to bootstrap the development of a fully connected ecosystem of tokens that support ecologically responsible and sustainable development. 
 
 
-### 3.2 Reserve Token Generation
+### 3.2 Reserve Token Generation {#3-2-reserve-token-generation}
 
 CIC Reserve Token generation can be created with reserves in stable tokens from supporter contributions. The CIC Reserve Token’s main purpose is to seed initial collateral for CICs and not as a speculation tool. In addition to this market-connecting function, CICs also can reward users for sharing their information with donors to access impact data accrued through transactional records, surveys and audits. This data will form a key index that allows international aid organizations to measure impacts (see section 3.2.1) and decide if more support is needed or if they should sell off their CICs and move their CIC Reserve Tokens to stake them to another community. Donors will also be able to offer CICs toward SDG programs with desired impacts, developed by implementers upholding collectively-defined standards (Appendix B). The CIC Reserve Token’s supply will grow as more reserves (via donations) are added to it at. CIC holders will only be enabled to sell a percentage of the growth of their tokens each year out to National Currencies.
 
 Contributions by supporters via purchase of CICs go toward developing stable backing (by adding to reserves) increasing the value of CICs while also connecting CICs together. These CICs can be donated to the community to support SDG-related programs. Negative interest will form a community fund for participatory budgeting  as a sustainable local funding mechanisms. Finally, CIC transaction data combined with local surveys and audits will provide proof of impact accessible for CIC Token holders. 
 
 
-## 3. Use Cases
+## 3. Use Cases {#3-use-cases}
 
 While there are several potential uses listed in Appendix A, we will focus in this section on economically marginalized communities who have the most to gain from the potential of stabilizing their economies through accessing credit without the burden of debt and the monetization of their productive capacity.
 
 
-### 3.1 Aid Supported Marginalized Communities
+### 3.1 Aid Supported Marginalized Communities {#3-1-aid-supported-marginalized-communities}
 
 Several community-based organizations in Kenya developed community currencies with the assistance of Grassroots Economics Foundation in order to exchange goods and services in response to chronically lacking supplies of national currencies. These CCs (trading via paper vouchers until 2018) have been converted into pilot mobile-phone-based CIC systems, which enables them to develop regional CIC Reserves so that they can exchange with their neighbor communities. The impact data on local trade and other social and environmental metrics is generated on a blockchain and is validated by academics and researchers from reputable universities around the world. Chief among these preliminary findings is the compelling impacts of CC systems on food security in marginalised communities. Grassroots Economics Foundation will continue to publish these results as they are generated at [http://grassrootseconomics.org/research](http://grassrootseconomics.org/research).
 
@@ -156,7 +158,7 @@ Typical implementation strategy in marginalized communities involves:
 Once implemented, two CICs connecting to a common CIC Reserve are convertible to each other. This means that if the market is too small in one community they can now import from or export to another community. Community A importing from community B will cause some of the reserve of CIC A to flow into CIC B, Which will cause CIC B’s reserve to increase and CIC A’s reserve to drop. This change in reserve will reflect in the CICs relative pricing. Because community B is exporting, their CIC’s value will increase, and community A’s CIC’s value will decrease as it stabilizes the stable token A. This market balancing effect establishes a more inclusive and sustainable alternative for financing development, and even more remarkably, mitigating the trade imbalance and inequality persistently reproduced within current monetary systems.
 
 
-### 3.2 Impact Model
+### 3.2 Impact Model {#3-2-impact-model}
 
 The amount of trade in a community’s local market can be approximated as the aggregate sales revenue of all formal and informal businesses in the market over a period of time. The amount of national currency available to trade with is a function of its starting or nominal level, the amount of exports of labour, negatively correlated to the amount of imports of goods and other spending in the external market. The maximum amount of trade possible with limited supply of currency and businesses has an upper limit proportional to the amount of currency available in the community (Gesell, 1958). In the case where CC is injected into a community, it multiplies the effect by filling the gaps of existing national currency on total sales, which causes trade to reach a peak or optimal market faster. 
 
@@ -165,7 +167,7 @@ While Community Currencies are theoretically a powerful tool in developing local
 In the National Currency collateralized model for CICs (section 2.6), there is the potential to see both a market liquidity increase as well as CIC price stability. Further research could help to refine this model and show the full effects of community currency on economies, environments and society through randomized control trials (RCTs), for instance with economic surveys triangulated via transactional data. These topics and others require in-depth analysis from a consortium of universities and researchers.
 
 
-#### 3.2.1 Proof of Impact for the UN Sustainable Development Goals
+#### 3.2.1 Proof of Impact for the UN Sustainable Development Goals {#3-2-1-proof-of-impact-for-the-un-sustainable-development-goals}
 
 Community Inclusion Currencies (CICs) flowing through communities, geographic regions and municipalities can provide both qualitative and quantitative measurements for economic, environmental, and social indicators and impacts. Measurements of CIC transactions and user-contributed demographics, as well as third-party audit and survey data, can be packaged into valuable indices for development and used as standards (Appendix B) for proof of impact related to the Sustainable Development Goals (SDGs). SDG impacts can have various measurements using CICs blockchain transaction data as well as audit and survey data for each of the 17 SDGs ([https://en.wikipedia.org/wiki/Sustainable_Development_Goals](https://en.wikipedia.org/wiki/Sustainable_Development_Goals)), such as:
 
@@ -194,10 +196,10 @@ _**CIC collection refers to donations, fees and taxation. _
 Measurements include calculations, relative change over time, comparison to control groups and other CIC-using communities, as well as other indexes. As international aid moves more and more from prescriptive to evidence-based interventions, CICs give the aid industry the fine granularity needed to both observe the impact of interventions and access a comprehensive evidence base for decision-making in development programs and target aid to specific communities and individual beneficiary wallet holders. 
 
 
-## 5. Summary
+## 5. Summary {#5-summary}
 
 
-### 5.1 Seeding the decentralized economy of CICs
+### 5.1 Seeding the decentralized economy of CICs {#5-1-seeding-the-decentralized-economy-of-cics}
 
 By focusing on communities as the core units of the economy, and enabling them to develop and trade without the burden of interest-bearing credit, blockchain technologies have the potential to end the core structural causes of institutionalized world poverty and provide financial systems to avert or minimise the human cost of monetary and financial crises. Beyond creating the first decentralized market for cryptocurrencies in marginalized communities, Grassroots Economics is working to enable communities and supporting organizations around the world to create their own Community Inclusion Currencies and use them as Proof of Impact for development. Community Inclusion Currencies are a foundational element in the mission toward reaching UN Sustainable Development Goals. 
 
@@ -210,15 +212,15 @@ Community Currencies have been piloted (via paper vouchers such as Bangla-Pesa) 
 Open platforms and a global movement are needed to build on these protocols and frameworks and support communities worldwide to develop their own economies. Consider the profound potential of partnering in a global effort to build the world's first truly decentralized economic system from the bottom up, and end poverty in our lifetime.
 
 
-## 6. Acknowledgments
+## 6. Acknowledgments {#6-acknowledgments}
 
 We would like to express our gratitude to the many people and organizations who supported Grassroots Economics’ mission over the years, culminating in this paper. A special thanks to the late Bernard Lietear for his profound inspiration and life’s work. Thanks also to Eyal Hertzog, Adam, Bornstein, Paula Gil Baizan, Fennie Wang, Nick Williams, Holger Hoffmann-Riem, Stephen DeMeulenaere, Ester Barinaga, Carmen Mauk, Jem Bendell, Marc Barasch, Susan Witt, Thomas Greco, Alex Olivas, Matthew Slater, Scott Morris, Edgar Kampers, Tatiana Rubiano, Marion Cauvet, Martine Visser, Elen Stecca, Tat Lam, Griss Gee, Orit Hertzog, Asaf Shachaf, Yudi Levi, Omry Rozenfeld, Nate Hindman, Roni Gur, Miri Bickel, Dotan Elnatan, Mati Levi, Jens Martignoni, Ariel Lashansky, Tomer Bariach, Dann Sillen, Bitange Ndemo, Sven Duyx,  Erick Brenes, Georgina Gomez, Kibet Yegon, Shams Kairys, Kevin D'Arbela, Damaris Njoroge, as well as the teams of Grassroots Economics, BProtocol Foundation, POA.network, Greenworld Campaign, Stichting DOEN, Triodos Bank, Sempo, Lush Cosmetics, Segal Family Foundation, and LocalCoin. Your support and feedback has been crucial to us in improving our work and this document. Thank you! 
 
 
-## Appendix A: Additional Use Cases
+## Appendix A: Additional Use Cases {#appendix-a-additional-use-cases}
 
 
-### A.1 Universal Basic Income (UBI)
+### A.1 Universal Basic Income (UBI) {#a-1-universal-basic-income-ubi}
 
 Blockchains have been proposed as potential solutions for creating UBI in that they enable a medium of exchange to be directly provided to communities and individuals with little or no need for distributors. Via CICs and regional reserve tokens, taxes, programmed inflation, fees, demurrage and other mechanisms can be created to collect and automatically re-distribute tokens. This creates _local_ mechanisms for UBI and bypasses the dependency problem of UBI from foreign sources. While CCs alone give little room for UBI being injected from exogenous sources, CICs can enable communities to increase their collateral and inject development funding. In addition, creating CICs with integrated UBI systems creates an incubator for local market development.
 
@@ -227,7 +229,7 @@ Those wishing to develop a UBI may begin by creating a CIC in their community. T
 For example, a community currency in Gran Canaria, Spain was built with UBI and has been providing for 5 years a universal unconditional basic income whose level is conditioned to the degree the individual has supported the community that month ([http://monedademos.es](http://monedademos.es)). 
 
 
-### A.2 Refugee Inclusion 
+### A.2 Refugee Inclusion  {#a-2-refugee-inclusion}
 
 Traditional aid development programs have failed to address the fundamental problems plaguing the economic infrastructure of marginalized communities around refugee camps. Traditional aid into these economies often creates unsustainable food systems and market dynamics that exacerbate poverty levels and reinforce the existing economic structure and exclusion of refugees. The bulk of the aid flows out of the community too quickly to provide lasting impact, while key community members and resources remain largely underutilized. Finally, there is simply not enough aid to go around - the ability to leverage existing aid into effective credit and attract private sector actors are key missing components. 
 
@@ -251,34 +253,34 @@ Community members will receive an initial injection of RICCs on their feature ph
 6. Continuous incentives keep circulation flowing even when aid reserves are diminished. Note that the stability fund can be refilled by anyone.
 
 
-### A.3 Trees and Asset Backing
+### A.3 Trees and Asset Backing {#a-3-trees-and-asset-backing}
 
 When considering CICs as backed by future production, woodlots (trees planted for future harvest) have a clear value proposition as backing for CCs according to Hudon and Lietaer (2006). Carbon offsetting for indigenous tree planting could also have the same collateralizing effect for CICs. In this light, a tree-harvesting organization could create a token based on the value of the trees over their next harvest, e.g. 1000 trees planted could be used as collateral for their future revenue. These tree tokens in circulation prior to harvest could be used to promote more tree planting with community members. A farmer receiving the tokens could deposit them into long-term saving or utilise them commercially within the community. Aid organizations or investors wishing to support tree planting could hold or increase the reserves of these tokens, or their growth token equivalent, to support more token issuance for more tree planting. 
 
 In Kenya a local cooperative accepts CICs for the use of its maize mill for grinding corn flour, and part of the CIC collected is utilized for Greenworld Campaign (the environmental NGO who helped develop the maize mill) reforestation and agroforestry community programs. In this case local cooperatives act as the collateral for community environmental programs. 
 
 
-### A.3 Health
+### A.3 Health {#a-3-health}
 
 Aid organizations wishing to promote health could create a token backed by reserves in donated pharmaceuticals and clinics. These tokens could be offered to the elderly or as a universal health care system established in clinics that can redeem the tokens for pharmaceuticals or use them for local commerce. These tokens could also serve as a medium of exchange and a taxation system on that exchange that would make the aid organization’s local funding sustainable.
 
 
-### A.4 Food Security
+### A.4 Food Security {#a-4-food-security}
 
 Poorly designed economies create unsustainable food systems, and poverty. Vulnerable food systems worldwide have no buffer against climate change when combined with the volatility of national and international markets. Because of their dependency on these markets, food enterprise profits do not produce enough regional development and instead funnel toward economic hubs. This causes a chronic lack of cash and credit for communities and the supply chain, which translates to vulnerability to environmental disaster, food insecurity, chronic poverty, and a lack of agricultural labor and investment. Integrating farms and organizations along supply chains into Community Inclusion Currencies helps build the resilience of the food system and incubates regional food providers and distributors from volatile market conditions. Food systems integrated into CICs would also have transactional transparency to measure efficiency along supply chains.
 
 
-### A.5 National and Municipal Currencies
+### A.5 National and Municipal Currencies {#a-5-national-and-municipal-currencies}
 
 Governments may begin using CICs to create a source of local credit for development, as well as sustainable taxation. Each community within the governance structure could be linked to a regional reserve. Regionality is a natural choice for the human scale of these tokens. Regional tokens based on political units such as municipal governments could be a natural choice as a liquidity provider through the creation of regional reserve tokens. The CIC system creates a mechanism for Fractional Reserve, Banking Insurance, and Price Stability (section 2.6), which are all present in all levels of CICs described in this paper. This gives government the ability to provide stability and market growth while independent user-generated token markets seek to gain traction. 
 
 
-## Appendix B: Standards for Implementers, Validators and Communities
+## Appendix B: Standards for Implementers, Validators and Communities {#appendix-b-standards-for-implementers-validators-and-communities}
 
 We would like to engage partners in developing a set of standards for implementers who design and set up CICs, validators of impact data, as well as beneficiary communities receiving Sarafu reserves. These standards will be published and updated yearly, and used to direct donor contributions toward enhancing existing CICs and seeding new ones. The standard body will consist of the board of Grassroots Economics Foundation as well as voluntary holders of 5% or more of the Sarafu tokens in existence and their representatives. Groups of Sarafu holders may form into clusters of 5% or more for eligibility as a group or organizational Standard Board member.
 
 
-### B.1:  Standards Outline 
+### B.1:  Standards Outline  {#b-1-standards-outline}
 
 
 
@@ -298,7 +300,7 @@ While seeking to incorporate the wishes of all contributors, these standards wil
 *   **Inter-Token Stability:** Ensuring stable CIC prices and markets through adequate risk assessment and collateral systems.
 
 
-### B.2 **CIC Token Summary**
+### B.2 **CIC Token Summary** {#b-2-cic-token-summary}
 
 
 
@@ -311,7 +313,7 @@ While seeking to incorporate the wishes of all contributors, these standards wil
 7. **Initial Supply:** Community Inclusion Currencies are created in supply for the area they are implemented in. They can start disconnected from stable token reserve or connected. Their price in exchange for Stable tokens like DAI will depend solely on their reserve to supply ratio using a bonding curve.
 
 
-### B.3 CIC Network Ecosystems:
+### B.3 CIC Network Ecosystems: {#b-3-cic-network-ecosystems}
 
 
 
@@ -331,7 +333,7 @@ While seeking to incorporate the wishes of all contributors, these standards wil
     11. **Community Inclusion Currency Users **earn, or are given CICs as a local medium of exchange, and are incentivized by donors using stable and growth tokens to trade based on SDG impacts.
 
 
-## References
+## References {#references}
 
 Barinaga, E., Zapata Campos, MJ., Ruddick, W. 2018. Community currencies as grassroots monetary infrastructures for the economic commons. _7th LAEMOS Conference_ on “Organizing for resilience: scholarship in unsettled times”. IAE Business School, Buenos Aires, Argentina. March 21-24.
 
@@ -374,6 +376,3 @@ Schmidt-Traub, G., De la Mothe Karoubi, E., & Espey, J. (2015). Indicators and a
 Wikipedia authors. Sarafu-Credit system [https://en.wikipedia.org/wiki/Sarafu-Credit](https://en.wikipedia.org/wiki/Sarafu-Credit) 
 
 Yamazaki, S. (2013). Community Currency as a tool of regional revitalization (in Japanese), Osaka: Osaka Municipal Universities Press.
-
-
-<!-- Docs to Markdown version 1.0β17 -->
