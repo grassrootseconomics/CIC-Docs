@@ -1,13 +1,3 @@
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 1.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 ## Community Inclusion Currencies (CICs)
 
 
@@ -101,14 +91,6 @@ CIC reserve tokens can in turn contain a token which is linked to National Curre
 In order to implement Community Inclusion Currencies (CICs) in a framework that will allow them to interact with each other, the solutions currently available lie in decentralized ledger systems or blockchains and embedded smart contracts. Blockchains, due to their distributed nature and integrated cryptography, enable CC transactions records to be immutable and secure. They also offer the ability to encode scripts or programs into tokens called smart contracts. The CIC exchange protocol is one such open-source script embedded into the smart contract of Community Inclusion Currencies (CICs) which enable them to interact with each other. 
 
 While a CIC could exist on any smart-contract-enabled blockchain, many blockchains charge high fees for executing transactions to the network. In order to trade effectively in marginalized communities, transaction fees must be minimized, which is why we are using the POA.Network blockchain, an Ethereum-based platform that offers an affordable open-source framework for smart contracts. POA leverages an independent group of block validators who maintain the transaction records and who are all licensed public notaries around the United States, which increases security while enabling a method of governance on the blockchain (Barinov et al., 2017). POA Network is a scalable, secure and cost effective solution for enabling CICs for micro, small and medium businesses. For more information visit [https://poa.network/](https://poa.network/). In order to connect Kenyan CICs to DIA we are using a version of POA that has a native DAI token: xDAI ([https://poa.network/xdai](https://poa.network/xdai)).
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/CIC-White-Paper0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/CIC-White-Paper0.png "image_tooltip")
-
 
 
 ### 2.4 Price Stability and Continuous Liquidity
