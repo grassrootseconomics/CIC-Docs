@@ -4,4 +4,4 @@
  + Blog: https://grassecon.org/blog
  + CIC Platform: https://github.com/teamsempo
  + CIC Blockchain Smart Contract: https://github.com/GrassrootsEconomics/CIC-Liquid-Token
- + Data - Transaction Datasets: https://github.com/GrassrootsEconomics/TransactionDatasets
+ + Data - Transaction Datasets: https://www.grassrootseconomics.org/research
