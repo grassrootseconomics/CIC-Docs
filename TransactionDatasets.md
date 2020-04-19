@@ -17,7 +17,7 @@ The Transaction csv fields:
 
 1. id - internal transaction ID number
 1. timeset - date and time of transaction
-1. transfer_subtype - internal typing: DISBURSMENT = from Grassroots Economics, RECLEMATION = Back to GE, STANDARD =  a trade between users, AGENT = when a group account is cashing out
+1. transfer_subtype - internal typing: DISBURSMENT = from Grassroots Economics, RECLEMATION = Back to GE, STANDARD =  a trade between users, AGENT = when a group account is cashing out (see held_roles) below
 1. transfer_use - The category the sender marked the transaction as - used for 'confidence' later for the user category - note this will be changed to boolean
 1. tx_hash - hashed transaction address on blockchain 
 1. source - wallet ID of sender 
@@ -41,7 +41,8 @@ The user summary csv fields:
 1. old_POA__blockchain_address - Wallet ID on POA Blockchain if they had one
 1. comm_tkn - Their token name (each user only has 1 token) currenlty only Sarafu
 1. bal - current balance of [comm_tkn] as of file date
-1. location - User input (village name)
+1. location - User input (village name) 
+1. held_roles - Standard transactions are between Beneficiaries, anything to an Admin is a Reclemation or from and Admin is a Disbursment and anything to a Agent is a Agent_out
 1. gender
 1. business_type - Input by GE staff based on what the users sell
 1. ovol_in - total number of tokens that came into this account from non-STANDARD transactions
