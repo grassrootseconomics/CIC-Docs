@@ -9,7 +9,7 @@ assignees: ''
 
 Please first confirm first:
 
-- [ ] I have read all READMEs in the repository
+- [ ] I have read all READMEs in the repository
 - [ ] My system meets all described requirements
 
 Now that that's over with, please give _brief_ explanations to each of the below:
