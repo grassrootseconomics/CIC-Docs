@@ -1,4 +1,4 @@
-# Title
+# xDAI Migration spec
 
 <!--
 valid status values are: Pre-draft
