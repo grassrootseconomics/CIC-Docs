@@ -7,3 +7,6 @@ Overview
 Modules
 
 Functions
+
+
+Chama Max Cash out = min([balance/2,standard volume_outward]) 1x per month
