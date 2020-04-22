@@ -1,28 +1,24 @@
 # Title
 
 <!--
-valid status values are: Pre-draft|Draft|Proposal|Accepted
+valid status values are: Pre-draft
 -->
-* Authors: Firstname Lastname <email> (url)
-* Date: YYYY.MM.DD
+* Authors: William RUddickFirstname Lastname <will@grassecon.org>
+* Date: 2020.04.22
 * Version: 1
 * Status: Pre-draft
 
 ## Rationale
-<!--
 We want to give donors a way to contribute to Community Inclusion Currencies as well as anyone with National Currency.
 By connecting to a reserve that is stable to the US dollar we bring some stability and the ability for many to support local communities.
--->
+
 
 ## Before 
-<!--
-What is the current state of the described topic?
--->
+Currently we are using a virtual reserve a generic ERC20 token. We have 2 Million of those tokens as research against 8 MIllion Sarafu issued (the current Kenyan CIC)
 
 ## After
-<!--
-How will things be different after this has been done?
--->
+We have 40,000 xDAI to put as teh reserve and are looking at minting 16Million tokens
+with a connector weight (target Reserve Ratio) of 0.25 (25%) and an inital price of roughly 0.01 Sarafu to a xDAI (USD stable)
 
 ## Implementation
 <!--
