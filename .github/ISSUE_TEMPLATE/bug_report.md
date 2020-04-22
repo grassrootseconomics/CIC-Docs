@@ -7,12 +7,11 @@ assignees: ''
 
 ---
 
-Please first confirm first:
+<!--
+please keep explanations in this section brief
+-->
 
-- [ ] I have read all READMEs in the repository
-- [ ] My system meets all described requirements
-
-Now that that's over with, please give _brief_ explanations to each of the below:
+**Did you read _all_ the READMEs and are system requirements fulfilled?**
 
 **What did you try to do?**
 
@@ -24,4 +23,6 @@ Now that that's over with, please give _brief_ explanations to each of the below
 
 ---
 
-**Please put any detailed explanations below here**
+<!--
+please keep explanations in this section brief
+-->
