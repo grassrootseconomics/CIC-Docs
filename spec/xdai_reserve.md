@@ -10,7 +10,8 @@ valid status values are: Pre-draft|Draft|Proposal|Accepted
 
 ## Rationale
 <!--
-Why are you proposing this?
+We want to give donors a way to contribute to Community Inclusion Currencies as well as anyone with National Currency.
+By connecting to a reserve that is stable to the US dollar we bring some stability and the ability for many to support local communities.
 -->
 
 ## Before 
