@@ -14,7 +14,8 @@ The current system seeks to maximize circulation in order to fill market gaps an
 ## Before 
 Currently:
 1. Grassroots Economics started with a pool of 8 Million Sarafu tokens (which they value 1:1 with Kenyan Shillings ala buy backs). Of which 90% will have been distributed to users as below by the end of April 2020.
-1. New users get 400 Sarafu (a CIC)
+1. New users get 50 Sarafu (a CIC) 
+1. New users that fill out their profiles (name, business, location, gender) get additional 350 Sarafu (a CIC) (must call office line)
 1. Users that refer other users get 100 Sarafu - after that new user has begun to trade
 1. Savings Groups (aka Chamas are groups of users that save and give loans to eachother) get 10,000 Sarafu divided between their members after 2 months of trading.
 1. Savings Groups can redeem 40% of their Sarafu Balance for Kenyan Shillings each month but must have spent (given loans) of at least as much as they want to cash out. 
