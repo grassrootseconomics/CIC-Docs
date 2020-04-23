@@ -21,7 +21,7 @@ The following are all rules are platform based:
 1. Savings Groups can redeem 50% of their Sarafu Balance for Kenyan Shillings each month but must have spent (given loans) of at least as much as they want to cash out. (Shown as Agent_out in database) Cashing out is done using donor funds by Grassroots Economics Foundation and Sarafu is valued 1:1 with Kenyan shilligns using eMoney (Mpesa).
 1. Users get a daily or weekly Sarafu bonues depending on how they trade. They are ranked by the number of other people they trade above 20 Sarafu with and awarded based on their percentage of such overall trade. (Possibly moving to k-cycle centrality).(Shown as Disbursement in database)
 1. Holding Fee: If an account if dormant (no trades in or out) for 7 days 20 Sarafu are deducted and added back to the pool. (Shown as Reclaimation in database)
-1. Anyone with Mpesa or Bonga points can send them to Grassroots Eocnomics to receive additional Sarafu (Shown as Disbursement in database)
+1. Anyone with Mpesa or Bonga points can send them to Grassroots Economics to receive additional Sarafu (Shown as Disbursement in database)
 1. Donors can give Grassroots Economics funds to support the Sarafu buy-back and operations
 
 ## After
@@ -31,8 +31,8 @@ With a reserve in xDAI each Sarafu token will now have spot price or excahnge pr
 Where R = the amount of xDAI in reserve, S= the total supply of Sarafu, and TRR = Target Reserve Ratio = that ratio of R/S such that the echange price is 1:1.
 1. Grassroots Economics will continue with all the above incentives and to buy the vouchers off on a regular basis 1:1 from Savings groups.
 1. Any funds going into the reserve will increase the price and mint additional Sarafu following a bonding curve.
-1. Anyone with a webApp or MetaMask can add xDAI and mint more Sarafu (+) increase the value of all Sarafu
-1. Anyone with a webApp or MetaMask can add send Sarafu to the converter contract to destry it and withdraw reserve (-) decreasing the value of all Sarafu
+*. Anyone with a webApp or MetaMask can add xDAI and mint more Sarafu (+) increase the value of all Sarafu
+*. Anyone with a webApp or MetaMask can add send Sarafu to the converter contract to destry it and withdraw reserve (-) decreasing the value of all Sarafu
 1. As the reserve of Sarafu is depleted and the exchange price drops Grassroots Economics as well as other donors will add more reserve and mint more tokens to distribute.
 1. Grassroots Economics will destroy Sarafu it collects to pull out excess reserve and convert that xDAI to Kenyan shillings to continue with Savings Group buy backs.
 1. A 2% fee on conversion between reserve and supply in both directions is done on blockchain and added to the reserve.
