@@ -29,11 +29,12 @@ After the migration to xDAI (https://github.com/GrassrootsEconomics/CIC-Docs/blo
 anyone (with access to blockchain) in the world can contribute reserve in the form of xDAI. xDAI is a stable token to the US dollar and can be purchased with USD. 
 With a reserve in xDAI each Sarafu token will now have spot price or excahnge price to xDAI given by P = R/(S*TRR)
 Where R = the amount of xDAI in reserve, S= the total supply of Sarafu, and TRR = Target Reserve Ratio = that ratio of R/S such that the echange price is 1:1.
-1. Grassroots Economics will continue to buy the vouchers off on a regular basis 1:1 from Savings groups.
+1. Grassroots Economics will continue with all the above incentives and to buy the vouchers off on a regular basis 1:1 from Savings groups.
 1. Any funds going into the reserve will increase the price and mint additional Sarafu following a bonding curve.
-1. Grassroots Economics will destroy Sarafu to pull out excess reserve and convert that xDAI to Kenyan shillings to continue.
 1. Anyone with a webApp or MetaMask can add xDAI and mint more Sarafu (+) increase the value of all Sarafu
 1. Anyone with a webApp or MetaMask can add send Sarafu to the converter contract to destry it and withdraw reserve (-) decreasing the value of all Sarafu
+1. As the reserve of Sarafu is depleted and the exchange price drops Grassroots Economics as well as other donors will add more reserve and mint more tokens to distribute.
+1. Grassroots Economics will destroy Sarafu it collects through buy backs to pull out excess reserve and convert that xDAI to Kenyan shillings to continue with Savigns Group buy backs.
 
 
 ## Implementation
