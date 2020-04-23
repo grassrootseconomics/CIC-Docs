@@ -19,21 +19,21 @@ We have 40,000 xDAI to put as the reserve and are looking at minting 16Million t
 with a connector weight (target Reserve Ratio) of 0.25 (25%) and an inital price of roughly 0.01 Sarafu to a xDAI (USD stable)
 
 ## Implementation
-Each existing user should have a completley new wallet and private key for security reasons and be given the same balances they currently have with the new (xDAI reserve) Sarafu.
+Each existing user should have a completley new wallet and private key for security reasons and be given the same balances they currently have with the new (xDAI reserve) Sarafu. Roughly 8Million Sarafu_1 in wallet will be replaced with Sarafu_2
 
 ### Workflow
-1. Synch db <->Blockchain
-1. Deply contracts to create Sarafu_2 - deposit reserve and mint tokens
+1. Synch db <->Blockchain - ensure synronization between our db (USSD interface) and blockchain
+1. Deploy contracts to create Sarafu_2, set inital variables - deposit reserve and mint tokens
 1. Migration - New wallets for users - Replicate user accounts with new token Sarafu_2
 
 ### Variables
 
 1. Synch variables, - synch frequency - and limitations
-2. Contract variables (reserve ratio, reserve amount, number of Sarafu_2)
-3. Migration speed 
+2. Contract variables (reserve ratio (0.25), reserve amount (40k xDAI), number of Sarafu_2 (16Million), convert fee 0.02 (2%))
+3. Migration speed - how often is synching done between USSD db and blockchain
 
 ### Interface
-This will all be done at code and command line level
+This migration will all be done at code and command line level, while some testing can be done on the platform gui
 
 ## Testing
 1. Check db<->blockchain synch - verify they are synched and we can do external transactions and handle RPC failure
