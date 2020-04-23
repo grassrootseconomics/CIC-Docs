@@ -36,6 +36,7 @@ Where R = the amount of xDAI in reserve, S= the total supply of Sarafu, and TRR 
 1. Anyone with a webApp or MetaMask can add send Sarafu to the converter contract to destry it and withdraw reserve (-) decreasing the value of all Sarafu
 1. As the reserve of Sarafu is depleted and the exchange price drops Grassroots Economics as well as other donors will add more reserve and mint more tokens to distribute.
 1. Grassroots Economics will destroy Sarafu it collects through buy backs to pull out excess reserve and convert that xDAI to Kenyan shillings to continue with Savigns Group buy backs.
+1. A 2% fee on conversion between reserve and supply in both directions
 
 
 ## Implementation
