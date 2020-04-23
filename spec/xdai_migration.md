@@ -29,7 +29,7 @@ Each existing user should have a completley new wallet and private key for secur
 ### Variables
 
 1. Synch variables, - synch frequency - and limitations
-2. Contract variables (reserve ratio (0.25), reserve amount (40k xDAI), number of Sarafu_2 (16Million), convert fee 0.02 (2%))
+2. Contract variables (reserve ratio (0.25), reserve amount (40k xDAI), number of Sarafu_2 (16Million), convert fee 0.005 (0.5%))
 3. Migration speed - how often is synching done between USSD db and blockchain
 
 ### Interface
