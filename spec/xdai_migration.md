@@ -31,6 +31,7 @@ Each existing user should have a completley new wallet and private key for secur
 1. Synch variables, - synch frequency - and limitations
 2. Contract variables (reserve ratio (0.25), reserve amount (40k xDAI), number of Sarafu_2 (16Million), convert fee 0.005 (0.5%))
 3. Migration speed - how often is synching done between USSD db and blockchain
+4. 3rd party Fiat <-> xDAI conversion costs and speed
 
 ### Interface
 This migration will all be done at code and command line level, while some testing can be done on the platform gui
