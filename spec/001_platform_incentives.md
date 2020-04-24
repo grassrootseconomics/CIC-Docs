@@ -11,8 +11,8 @@ valid status values are: Pre-draft|Draft|Proposal|Accepted
 ## Rationale
 The current system seeks to maximize circulation in order to fill market gaps and help CIC users to support eachother.
 
-## Before 
-Currently: Grassroots Economics started with a pool of 8 Million Sarafu tokens (which they value 1:1 with Kenyan Shillings ala buy backs). Of which 90% will have been distributed to users as below by the end of April 2020. 
+## Currently
+Grassroots Economics started with a pool of 8 Million Sarafu tokens (which they value 1:1 with Kenyan Shillings ala buy backs). Of which 90% will have been distributed to users as below by the end of April 2020. 
 The following are all rules are platform based (not blockchain contract based). Note that these rules are for the Sarafu CIC only and not meant to be the rules for other CIC creators.
 1. *airdrop-selfservice*: New users get 50 Sarafu (a CIC) (Shown as Disbursement in database)
 1. *airdrop-full-profile*: New users that fill out their profiles (name, business, location, gender) get additional 400 Sarafu (a CIC) (must call office line) (Shown as Disbursement in database)
