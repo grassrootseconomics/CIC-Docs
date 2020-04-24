@@ -12,10 +12,10 @@ valid status values are: Pre-draft
 We want to give donors and community mambers a way to contribute to and cash out from Community Inclusion Currencies with National Currency. By connecting to a reserve that is stable to the US dollar called xDAI we bring some stability and the ability for many to support local communities. We also enable any CICs that have xDAI as a reserve to convert to any other CIC with xDAI as reserve. 
 
 ## Before 
-Currently we are using a virtual reserve a generic ERC20 token. We have 2 Million of those reserve tokens against 8 Million Sarafu issued (the current Kenyan CIC). Sall those Sarafu_1 or S1
+Currently we are using a virtual reserve a generic ERC20 token. We have 2 Million of those reserve tokens against 8 Million Sarafu issued (the current Kenyan CIC). (Call those Sarafu_1 or S1)
 
 ## After
-We have 40,000 xDAI to put as the reserve and are looking at minting 16Million tokens called Sarafu  S2
+We have 40,000 xDAI to put as the reserve and are looking at minting O(16Million) tokens (called Sarafu_2 S2)
 with a connector weight (target Reserve Ratio) of 0.25 (25%) and an inital price of roughly 0.01 Sarafu to a xDAI (USD stable)
 
 ## Implementation
@@ -23,6 +23,8 @@ Each existing user should have a completley new wallet and private key for secur
 
 ### Workflow
 1. Synch db <->Blockchain - ensure synronization between our db (USSD interface) and blockchain
+1. Create group of govenors on a multi-sig wallet with the power to assign the facilitator address of all blockchain contracts.
+1. Create a white list for token users
 1. Deploy contracts to create Sarafu_2, set inital variables - deposit reserve and mint tokens
 1. Migration - New wallets for users - Replicate user accounts with new token Sarafu_2
 
