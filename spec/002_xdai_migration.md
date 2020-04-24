@@ -38,6 +38,7 @@ This migration will all be done at code and command line level, while some testi
 
 ## Testing
 1. Check db<->blockchain synch - verify they are synched and we can do external transactions and handle RPC failure
+1. Token Governance
 1. Contract deplyment - conversions, transfers all work as expected 
 1. Migration - new wallets match old wallets
 1. Store old blockchain wallet IDs (as a list with old POA wallets)
