@@ -24,5 +24,5 @@ please keep explanations in this section brief
 ---
 
 <!--
-please keep explanations in this section brief
+here you can indulge more detailed rants about the problem
 -->
