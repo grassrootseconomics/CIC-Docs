@@ -18,7 +18,7 @@ Private data inlcudes, names, phone numbers, location
 1. Initial Disbursement only (1 time per user with a max of 400)
 1. Disbursement (besides initial) and reclamation (with approval of Admin)
 
-#Admin
+#Admin#
 
 1. See private data
 1. Add users
