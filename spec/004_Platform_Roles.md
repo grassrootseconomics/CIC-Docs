@@ -1,39 +1,39 @@
-
-# Public View Only
-
-1. View public data only and no ability to edit
-
-# Private View Only 
-
-1. View private data and no ability to edit
-
-Private data inlcudes, names, phone numbers, location
-
-# Enroller
-
-1. See private data
-1. Add users
-1. Edit user fields
-1. Pin reset
-1. Initial Disbursement only (1 time per user with a max of 400)
-1. Disbursement (besides initial) and reclamation (with approval of Admin)
-
-# Admin
-
-1. See private data
-1. Add users
-1. Edit user fields
-1. Pin reset
-1. Disbursement and reclamation (without approval)
-1. Give approval to Enrollers
-
-# Super Admin
-
-1. Assign the roles (Suber Admin, Enroller, View Only)
-1. See private data
-1. Add users
-1. Edit user fields
-1. Pin reset
-1. Disbursement and reclamation (without approval)
-1. Give approval to Enrollers
-
+| Role              | Current permissions                                                                                        | Expected permissions                                                     |
+|-------------------|----------------------------------------------------------------------------------------------------------- |--------------------------------------------------------------------------|
+| Sempo admin       | Presumably all actions since it is  currently the highest tier. However these are the notable permissions: |                                                                          |
+|                   | 1. Interact with organizations API                                                                         |                                                                          |
+|-------------------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Super admin       | 1. Edit and assign roles. (Entails, creation and deletion of invites)                                      | 1. Assign the roles (Sub Admin, Enroller, View Only).                    |
+|                   | 2. Modify transfer statuses.                                                                               | 2. See private data.                                                     |
+|                   | 3. Edit  organization data.                                                                                | 3. Add users.                                                            |
+|                   | 4. Delete users.                                                                                           | 4. Edit user fields.                                                     |
+|                   | 5. Interact with Wyre account API for KYC applications.                                                    | 5. Pin reset.                                                            |
+|                   |                                                                                                            | 6. Disbursement and reclamation (without approval).                      |
+|                   |                                                                                                            | 7. Give approval to Enrollers.                                           |
+|-------------------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Admin             | 1. Post to transfer usage API.                                                                             | 1. See private data.                                                     |
+|                   | 2. View admin list and corresponding invites. 3. Can create admins but cannot set organization id.         | 2. Add users.                                                            |
+|                   | 3. Can create admins but cannot set organization id.                                                       | 3. Edit user fields.                                                     |
+|                   | 4. Can view external auth credentials.                                                                     | 4. Pin reset.                                                            |
+|                   | 5. Can upload a spreadsheet.                                                                               | 5. Disbursement and reclamation (without approval).                      |
+|                   | 6. Can interact with Dataset API.                                                                          | 6. Give approval to Enrollers.                                           |
+|                   | 7. Can interact with export API.                                                                           |                                                                          |
+|                   | 8. Create and view saved filters.                                                                          |                                                                          |
+|                   | 9. Edit transfer account data.                                                                             |                                                                          |
+|                   | 10.Edit user data.                                                                                         |                                                                          |
+|                   | 11.Create credit transfer including bulk transfer.                                                         |                                                                          |
+|                   | 12.Confirm withdrawal.                                                                                     |                                                                          |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Subadmin/Enroller | 1. View transfer usages.                                                                                   | 1. See private data.                                                     |
+|                   | 2. Enter KYC details.                                                                                      | 2. Add users.                                                            |
+|                   |                                                                                                            | 3. Edit user fields.                                                     |
+|                   |                                                                                                            | 4. Pin reset.                                                            |
+|                   |                                                                                                            | 5. Initial Disbursement only (1 time per user with a max of 400).        |
+|                   |                                                                                                            | 6.Disbursement (besides initial) and reclamation(with approval of Admin).|
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Private View Only |                                                                                                            | 1. View private data and no ability to edit.                             |                                                                                                               |
+|                   |                                                                                                            | Private data includes, names, phone numbers, location.                   |
+|                   |                                                                                                            |                                                                          |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Public View Only  |                                                                                                            | 1. View public data only and no ability to edit.                         |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
