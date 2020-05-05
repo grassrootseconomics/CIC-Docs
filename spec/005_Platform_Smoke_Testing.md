@@ -1,4 +1,4 @@
-## USSD Menu Staging (*483*061#)
+## USSD Menu Staging (***483***061#)
 
 -----------------------
 ## User Creation
@@ -9,21 +9,19 @@
 
 ## User Types
 
-☐ Create a new User for Group and Agent
+* ☐ Create a new User for Group and Agent
+* ☐ Change an existing user type to Chama and Agent and test features work like exchange - then back to User and test again
 
-☐ Change an existing user type to Chama and Agent and test features work like exchange - then back to User and test again
+##Pin Reset
+* ☐ Reset pin for a user
 
-##Pin Reset##
+#Disburse Reclaim##
 
-☐ Reset pin for a user
-
-##Disburse Reclaim##
-
-☐ Disburse and reclaim a token from menu
+* ☐ Disburse and reclaim a token from menu
 
 
-##Change language##
-☐ English / Kiswahili (do this entire process in both languages -- checking spellings)
+#Change language##
+* ☐ English / Kiswahili (do this entire process in both languages -- checking spellings)
 
 ##Send##
 ☐ Send to registered number
