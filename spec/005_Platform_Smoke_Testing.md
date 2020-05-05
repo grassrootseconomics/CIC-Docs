@@ -1,4 +1,4 @@
-## USSD Menu Staging (<*483*061#>)
+## USSD Menu Staging (```*483*061#```)
 
 -----------------------
 ## User Creation
