@@ -6,11 +6,11 @@
 * ☐ Create a new user via self service (Dial the code above with a phone number not in the system)
  * ensure user is setup correctly and given (50) tokens
  * ensure user can set their profile information and check the information
-   * ☐ See my profile
-   * ☐ Change my business, name, location
-   * ☐ Check balance
-   * ☐ Change pin
-   * ☐ Opt out of market place
+  * ☐ See my profile
+  * ☐ Change my business, name, location
+  * ☐ Check balance
+  * ☐ Change pin
+  * ☐ Opt out of market place
 
 * ☐ Create a new user via webpage
 
@@ -19,6 +19,7 @@
 
 * ☐ Change a user type to Group and Agent
 * ☐ Change an existing user type to Chama and Agent and test features work like exchange - then back to User and test again
+
 
 ## Pin Reset
 * ☐ Reset pin for a user
@@ -48,11 +49,13 @@
 
 ## Exchange
 * ☐ Check exchange rate
-* ☐ Check that Exchange doesn’t work for a normal user
- * 	☐ Create a Chama
- * 	☐ Check Chama Balance is correct
 * ☐ Create a Token Agent
-* ☐ Exchange
+* ☐ Create a Chama
+* ☐ Check that Exchange doesn’t work for a normal user
+* ☐ Check that Exchange only works for a Chama to and Agent
+ * ☐ Check that a 2nd Exchange doesn't work (should only allow it once ever 30 days)
+* ☐ Check that regular transfers do not work to an Agent
+* 
 
 ## Help
 * ☐ Correct helpline 0757628885
