@@ -1,14 +1,13 @@
-##USSD Menu Staging (*483*061#)##
+## USSD Menu Staging (*483*061#)
 
 -----------------------
-##User Creation##
+## User Creation
 
-☐ Create a new user self service 
+* ☐ Create a new user self service 
+* ☐ Create a new user via webpage
 
-☐ Create a new user via webpage
 
-
-##User Types##
+## User Types
 
 ☐ Create a new User for Group and Agent
 
