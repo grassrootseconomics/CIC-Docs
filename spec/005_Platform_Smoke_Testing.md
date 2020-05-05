@@ -12,17 +12,16 @@
 * ☐ Create a new User for Group and Agent
 * ☐ Change an existing user type to Chama and Agent and test features work like exchange - then back to User and test again
 
-##Pin Reset
+## Pin Reset
 * ☐ Reset pin for a user
 
-#Disburse Reclaim##
-
+## Disburse Reclaim
 * ☐ Disburse and reclaim a token from menu
 
-#Change language##
+## Change language
 * ☐ English / Kiswahili (do this entire process in both languages -- checking spellings)
 
-##Send##
+## Send
 * ☐ Send to registered number
 * ☐ Verify both parties got the receipt SMS after a transfer
 * ☐ recheck the balance of each user to verify on our platform
