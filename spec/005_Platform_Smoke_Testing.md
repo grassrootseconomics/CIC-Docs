@@ -3,7 +3,7 @@
 -----------------------
 ##User Creation##
 
-☐ Create a new user self service via webpage
+☐ Create a new user self service 
 
 ☐ Create a new user via webpage
 
@@ -24,12 +24,13 @@
 
 
 ##Change language##
-☐ English / Kiswahili (do this entire process in both languages)
+☐ English / Kiswahili (do this entire process in both languages -- checking spellings)
 
 ##Send##
 ☐ Send to registered number
-☐ Verify both you and they both got the receipt SMS after a transfer
-☐ recheck the balance of each user to verify
+☐ Verify both parties got the receipt SMS after a transfer
+☐ recheck the balance of each user to verify on our platform
+☐ recheck the balance of each user to verify on blockchain
 
 ☐ Send to number not registered 
 ☐ Verify both you and they both got a SMS 
