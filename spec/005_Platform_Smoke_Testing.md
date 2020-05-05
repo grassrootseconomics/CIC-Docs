@@ -3,13 +3,21 @@
 -----------------------
 ## User Creation
 
-* ☐ Create a new user self service 
+* ☐ Create a new user via self service (Dial the code above with a phone number not in the system)
+ * ensure user is setup correctly and given (50) tokens
+ * ensure user can set their profile information and check the information
+   * ☐ See my profile
+   * ☐ Change my business, name, location
+   * ☐ Check balance
+   * ☐ Change pin
+   * ☐ Opt out of market place
+
 * ☐ Create a new user via webpage
 
 
 ## User Types
 
-* ☐ Create a new User for Group and Agent
+* ☐ Change a user type to Group and Agent
 * ☐ Change an existing user type to Chama and Agent and test features work like exchange - then back to User and test again
 
 ## Pin Reset
@@ -32,14 +40,6 @@
 
 * ☐ Send from an account with insufficient balance 
 * ☐ Verify SMS with balance
-
-
-## My account
-* ☐ See my profile
-* ☐ Change my business, name, location
-* ☐ Check balance
-* ☐ Change pin
-* ☐ Opt out of market place
 
 ## Market place
 * ☐ Check all Business categories
